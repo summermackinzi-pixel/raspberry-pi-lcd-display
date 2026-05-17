@@ -1,0 +1,14 @@
+[Unit]
+Description=Pi Day Display
+After=network.target
+
+[Service]
+Type=simple
+User=summer
+WorkingDirectory=/home/summer
+ExecStart=/home/summer/pi-venv/bin/python3 /home/summer/pi_day.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
