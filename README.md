@@ -1,6 +1,4 @@
 # raspberry-pi-lcd-display
-Raspberry Pi LCD display project created for the PeopleTec Pi Day Competition using Python and I2C communication.
-
 
 Raspberry Pi Pi Day LCD Display
 This project uses a Raspberry Pi 3 Model B and a 20x4 I2C LCD display to scroll digits of π while displaying the current digit index and animated messages. The project was created for the PeopleTec Pi Day Competition.
